@@ -176,5 +176,12 @@ paramter `-r` once:
 1. Create container for site works
 ```
 lxc launch lxc:fedora/24/amd64 cpm
-
+```
+2. Login into container
+```
+lxc exec bash
+```
+3. Install prerequisited and make checkout
+```
+dnf -y update; dnf clean all;
 ```
