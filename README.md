@@ -105,7 +105,7 @@ PR review process:
 5. PRs are usually merged by the authors
 
 
-## Development environment
+## Development environment (Docker)
 
 1. Install [Docker](https://docs.docker.com/) and [docker-compose](https://docs.docker.com/compose/)
 
@@ -170,3 +170,11 @@ paramter `-r` once:
  ```
  docker-compose run web test -r
  ```
+
+## Developmen environment (LXD)
+
+1. Create container for site works
+```
+lxc launch lxc:fedora/24/amd64 cpm
+
+```
