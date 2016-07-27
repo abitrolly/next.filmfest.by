@@ -174,15 +174,17 @@ paramter `-r` once:
 ## Development environment (LXD)
 
 1. Create container for site works
-```
+   ```
 lxc launch lxc:fedora/24/amd64 cpm
 ```
+
 2. Login into container
-```
+   ```
 lxc exec cpm bash
 ```
+
 3. Install prerequisited and make checkout
-```
+   ```
 dnf -y update
 dnf clean all
 dnf install -y git
