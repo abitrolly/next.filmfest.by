@@ -192,3 +192,8 @@ git clone https://github.com/kinaklub/next.filmfest.by filmfest
 cd filmfest
 ./bootstrap-fedora.sh
 ```
+
+4. Run server
+   ```
+manage.py runserver 0.0.0.0:8000
+```
