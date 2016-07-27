@@ -190,4 +190,5 @@ dnf clean all
 dnf install -y git
 git clone https://github.com/kinaklub/next.filmfest.by filmfest
 cd filmfest
+./bootstrap-fedora.sh
 ```
