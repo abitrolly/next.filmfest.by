@@ -185,6 +185,6 @@ lxc exec cpm bash
 ```
 dnf -y update
 dnf clean all
-dnf install git
+dnf install -y git
 git clone https://github.com/kinaklub/next.filmfest.by filmfest
 ```
